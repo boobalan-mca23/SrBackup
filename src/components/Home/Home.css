@@ -1,0 +1,158 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@300;400&display=swap');
+
+.luxury-container {
+  height: 100vh;
+  background-color: #f8f5f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-frame {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #e6d5b8, #d4af37, #e6d5b8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.03),
+    0 15px 60px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease;
+}
+
+.logo-inner {
+  width: 90%;
+  height: 90%;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.brand-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: grayscale(20%);
+  transition: all 0.5s ease;
+}
+
+.logo-frame:hover {
+  transform: scale(1.03);
+}
+
+.logo-frame:hover .brand-logo {
+  filter: grayscale(0%);
+}
+
+.content-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.brand-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 2.8rem;
+  color: #333;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.brand-name::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: #d4af37;
+  margin: 15px auto;
+}
+
+.brand-tagline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #666;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.discover-btn {
+  background: transparent;
+  color: #333;
+  padding: 12px 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #d4af37;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.discover-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #d4af37;
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .logo-frame {
+    width: 220px;
+    height: 220px;
+  }
+
+  .brand-name {
+    font-size: 2rem;
+  }
+
+  .brand-tagline {
+    font-size: 0.9rem;
+  }
+
+  .discover-btn {
+    padding: 10px 30px;
+    font-size: 0.8rem;
+  }
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.login-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+} 
+
+
+
+
+
+
+
+
+

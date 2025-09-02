@@ -1,0 +1,39 @@
+
+.customer-container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.customer-table {
+  margin-top: 20px;
+  background-color: #25274D; 
+  color: white; 
+}
+
+.customer-table th,
+.customer-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.customer-table th {
+  background-color: #25274D; 
+  color: white;
+}
+
+.styled-button {
+  margin: 8px;
+  padding: 8px 24px;
+  border-radius: 8px;
+  text-transform: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.styled-button:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.MuiDialog-paper {
+  width: 400px !important; 
+  max-width: 90%; 
+}

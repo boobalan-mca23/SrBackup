@@ -1,0 +1,86 @@
+.stock-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .stock-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .stock-summary {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .stock-card {
+    background-color: #f0f4ff;
+    padding: 16px;
+    border-radius: 8px;
+    flex: 1 0 150px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stock-label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .stock-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0074d9;
+  }
+  
+  .stock-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .stock-filters input,
+  .stock-filters select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .stock-table-container {
+    overflow-x: auto;
+  }
+  
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .stock-table th,
+  .stock-table td {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .stock-table th {
+    background-color: #0074d9;
+    color: white;
+  }
+  
+  .in-stock-status {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .sold-status {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .returned-status {
+    color: orange;
+    font-weight: bold;
+  }
+   
