@@ -1,0 +1,147 @@
+.order-report-container {
+    padding: 24px;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+  }
+  
+  .report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .report-title {
+    font-weight: 600;
+    color: #2d3748;
+  }
+  
+  .report-actions {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .export-button {
+    background-color: #4caf50;
+    color: white;
+    text-transform: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+  }
+  
+  .export-button:hover {
+    background-color: #3d8b40;
+  }
+  
+  .report-filters {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .search-field {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .filter-select {
+    min-width: 180px;
+  }
+  
+  .report-table-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .table-head {
+    background-color: #edf2f7;
+  }
+  
+  .table-head .MuiTableCell-root {
+    font-weight: 600;
+    color: #2d3748;
+  }
+  
+  .table-row:hover {
+    background-color: #f8fafc !important;
+  }
+  
+  .date-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .items-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .item-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .item-avatar {
+    width: 28px;
+    height: 28px;
+    font-size: 0.8rem;
+    background-color: #4caf50;
+  }
+  
+  .status-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .status-chip {
+    font-size: 0.75rem;
+    height: 24px;
+  }
+  
+  .status-chip.delivered {
+    background-color: #e6fffa;
+    color: #2c7a7b;
+  }
+  
+  .status-chip.pending {
+    background-color: #fffaf0;
+    color: #c05621;
+  }
+  
+  .action-button {
+    color: #4a5568;
+  }
+  
+  .action-button:hover {
+    background-color: #e2e8f0;
+  }
+  
+  .no-results {
+    padding: 24px;
+    text-align: center;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .report-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    
+    .report-filters {
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .search-field {
+      max-width: 100%;
+    }
+  }
