@@ -3,7 +3,7 @@ import axios from 'axios'
 import Button from "@mui/material/Button";
 import { MdDeleteForever } from "react-icons/md";
 import { FaWeight } from "react-icons/fa";
-import "./NewJobCard.css";
+import "./Newjobcard.css";
 import {
   goldRowValidation,
   receiveRowValidation,
